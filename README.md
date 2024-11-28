@@ -38,7 +38,7 @@ Create a configuration file named `firewall_config.json`. Below is an example:
     "blocked_ips": ["192.168.1.10", "10.0.0.5"],
     "blocked_ports": [22, 23, 80],
     "whitelisted_ips": ["192.168.1.1"],
-    "blocked_protocols": [1, 6],  // 1: ICMP, 6: TCP
+    "blocked_protocols": [1, 6],  
     "rate_limit": 100,
     "rate_time_window": 60,
     "volume_limit": 1048576,
