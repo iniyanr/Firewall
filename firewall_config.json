@@ -1,0 +1,22 @@
+{
+    "blocked_ips": ["192.168.1.10", "10.0.0.5"],
+    "blocked_ports": [22, 23, 80],
+    "whitelisted_ips": ["192.168.1.1"],
+    "blocked_protocols": [1, 6],  
+    "rate_limit": 100,
+    "rate_time_window": 60,
+    "volume_limit": 1048576,
+    "log_file": "firewall.log",
+    "time_block_rules": [
+        {
+            "start": "09:00",
+            "end": "17:00"
+        }
+    ],
+    "blocked_domains": [
+        "google.com",
+        "linkedin.com",
+        "twitter.com"
+    ]
+}
+
